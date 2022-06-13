@@ -89,6 +89,3 @@ def main(pk,path):
         identifier = identifier[:-1]
         value = value[:-1]
         insertinto(path,identifier,value)
-    
-
-main(635886,'dodgers.db')
